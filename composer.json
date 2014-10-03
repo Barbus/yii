@@ -1,0 +1,25 @@
+{
+    "name": "yii/yii",
+    "type": "library",
+    "description": "yii",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/Barbus/yii",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordi Boggiano",
+            "email": "j.boggiano@seld.be",
+            "homepage": "http://seld.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "repositories": [
+        {"type": "composer", "url": "http://localhost/toran/web/app.php/repo/private/"},
+        {"type": "composer", "url": "http://localhost/toran/web/app.php/repo/packagist/"},
+        {"packagist": false}
+    ]
+} 
+
